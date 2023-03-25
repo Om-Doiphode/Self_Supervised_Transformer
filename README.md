@@ -45,9 +45,15 @@
 
 3. `BeitforImageClassification` is used to perform the downstream task of Image classification.
 
+EsViT has equivariance property and also self supervision. But due to resource (GPU) constraint, I couldn't try it on the given dataset. I will try to use this model as soon as I get access to a GPU.
+
 ## Results
 
 After training for 10 epochs on Google Colab, the model achieved an accuracy of 98%
+
+<h1>ROC Curve</h1>
+
+<img src="ROC.png" alt="ROC Curve">
 
 ## References
 
